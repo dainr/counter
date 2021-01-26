@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(56, 130, 212);
+}
+
+.container {
+    max-width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #000;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#value {
+    font-size: 25px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.increase {
+    background-color: green;
+}
+
+.increase:hover, .decrease:hover {
+    background-color: #fff;
+}
+
+.decrease {
+    background-color: red;
+}
